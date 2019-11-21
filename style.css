@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/***** GRID *******/
+.row {
+    width: 100%;
+}
+
+.row::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+[class*="col-"] {
+    float: left;
+}
+
+.header {
+    background: black;
+    height: 70vh;
+}
+
+.prvi {
+    font-family: 'Indie Flower', cursive;
+    color: white;
+    font-size: 60px;
+    float: left;
+    margin-left: 1%;
+}
+
+nav ul li {
+    display: inline-block;
+    float: right;
+    margin: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+}
+
+.drugi {
+    color: white;
+    font-size: 5em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.dobrodosli {
+    margin-left: 1%;
+    margin-top: 15%;
+}
+
+.dugmence {
+    font-size: 2em;
+    background: black;
+    color: white;
+    border: 1px solid grey;
+    padding: 20px 50px;
+}
+
+.sekcija {
+    background-image: url(apple-blogging-coder-36990.jpg);
+    height: 60vh;
+    background-position: top;
+    background-size: cover;
+}
+
+.usluga {
+    margin-top: 20%;
+    margin-left: 2%;
+    padding: 1% 0 1% 3%;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 22px;
+    background: rgba(0, 0, 0, 0.7);
+    border: 1px solid grey;
+}
+.doleSlika{
+    margin-left: 4%;
+}
+
+.levo {
+    background-image: url(druga-sekcija.jpg);
+    height: 70vh;
+    background-size: cover;
+}
+
+.desno {
+    background: lightgrey;
+    height: 70vh;
+    float: right;
+}
+.desno img{
+    height: 300px;
+    margin: 65px;
+}
+.deo1{
+    padding-left: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 22px;
+    background: rgba(0, 0, 0, 0.8);
+    border: 1px solid grey;
+    margin: 45% 0 0 8%;
+}
+.deo2{
+    margin-top: -90px;
+    margin-left: 5%;
+    padding-left: 3%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background: rgba(0, 0, 0, 0.8);
+    border: 1px solid grey;
+    font-size: 20px;
+}
+.sekcija3{
+    height: 30vh;
+}
+.para{
+    text-align: justify;
+    margin: 5%;
+}
+.dugme{
+    padding: 5%;
+    background: white;
+    font-size: 2em;
+    margin-top: 20%;
+    margin-left: 35%;
+    border:1px solid grey;
+    box-shadow: 2px 2px grey;
+}
+.linija{
+    height: 2px;
+    margin: auto;
+}
+.linija{
+    text-align: center;
+    width: 60%;
+}
+.naslov3{
+    text-align: center;
+    margin: 4%;
+}
+.sestica{
+    margin-bottom: 4%;
+}
+.dole{
+    height: 30vh;;
+    background: black;
+    color: white;
+    padding: 3%;
+}
+.dole p{
+    text-align:start;
+}
+.drugaSekcija{
+    margin-left: 7%;
+}
+.doleSlika{
+    margin-left: 9%;
+}
